@@ -2,7 +2,7 @@
 Scarica la repository sul tuo terminale. Da shell digita il comando make nella cartella source. Digitare ./benchsort.out
 
 # Benchsort
-Un programmino che testa alcuni algorirmi di ordinamento.
+Un programmino che testa alcuni algoritmi di ordinamento.
 E' stato usato un processore intel i5 1.80 GHz
 
 | Algoritmo | 1.000 numeri | 10.000 numeri | 100.000 numeri | 1.000.000 numeri |
