@@ -1,4 +1,4 @@
-#Installazione su Linux
+# Installazione su Linux
 Scarica la repository sul tuo terminale. Da shell digita il comando make nella cartella source. Digitare ./benchsort.out
 
 # Benchsort
