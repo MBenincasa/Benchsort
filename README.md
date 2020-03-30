@@ -1,5 +1,5 @@
 # Benchsort
-Un programmina che testa alcuni algorirmi di ordinamento.
+Un programmino che testa alcuni algorirmi di ordinamento.
 E' stato usato un processore intel i5 1.80 GHz
 
 | Algoritmo | 1.000 numeri | 10.000 numeri | 100.000 numeri | 1.000.000 numeri |
