@@ -2,8 +2,6 @@
 #include <stdio.h> 
 #include <math.h>
 
-#define MAX_SIZE 1000000
-
 /*mergesort*/
 void merge(int arr[], int l, int m, int r);
 void mergeSort(int arr[], int l, int r);
@@ -23,6 +21,3 @@ void selectionSort(int arr[], int n);
 /*bubblesort*/
 void swapB(int *xp, int *yp);
 void bubbleSort(int arr[], int n);
-
-/*main*/
-void printArray(int A[], int size);

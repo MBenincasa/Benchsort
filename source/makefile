@@ -1,9 +1,9 @@
 all: benchsort.out
 
-benchsort.out: benchsort.o mergesort.o quicksort.o insertionsort.o selectionsort.o bubblesort.o
-	gcc benchsort.o mergesort.o quicksort.o insertionsort.o selectionsort.o bubblesort.o -o benchsort.out
+benchsort.out: benchsort.o mergesort.o quicksort.o insertionsort.o selectionsort.o bubblesort.o util.o
+	gcc benchsort.o mergesort.o quicksort.o insertionsort.o selectionsort.o bubblesort.o util.o -o benchsort.out
 	
-benchsort.o: sort.h benchsort.c
+benchsort.o: util.h sort.h benchsort.c
 	gcc -c benchsort.c
 	
 mergesort.o: sort.h mergesort.c
@@ -20,6 +20,9 @@ selectionsort.o: sort.h selectionsort.c
 	
 bubblesort.o: sort.h bubblesort.c
 	gcc -c bubblesort.c
+	
+util.o: util.h util.c
+	gcc -c util.c
 
 clean:
-	rm -f quicksort.o mergesort.o benchsort.o insertionsort.o selectionsort.o bubblesort.o
+	rm -f quicksort.o mergesort.o benchsort.o insertionsort.o selectionsort.o bubblesort.o util.o
